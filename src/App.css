@@ -32,7 +32,7 @@ body {
   top: 0;
   z-index: 50;
   width: 100%;
-  background: linear-gradient(90deg, #2a2f3a 0%, #1c1f26 100%);
+  background: linear-gradient(90deg, #192848 0%, #1c1f26 100%);
   color: #f0f0f0;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.18);
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -380,4 +380,48 @@ h1{
 .sel:focus-visible, .search:focus-visible{
   outline: 3px solid rgba(62,120,243,.35);
   outline-offset: 2px;
+}
+
+.footer {
+  background: linear-gradient(90deg, #1c1f26 0%, #192848 100%);
+  color: #dbe7ff;
+  padding: 35px 0;
+  text-align: center;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 0.85rem;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer .brand {
+  font-family: 'Cinzel', serif;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  margin-bottom: 6px;
+  color: #fff;
+}
+
+.footer .copy {
+  margin-bottom: 8px;
+  opacity: 0.8;
+}
+
+.footer .links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer .links a {
+  color: #9eb7ff;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.footer .links a:hover {
+  color: #ffd700; /* dorado al pasar el mouse */
 }
