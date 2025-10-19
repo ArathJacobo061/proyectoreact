@@ -1,0 +1,29 @@
+.footer {
+  background-color: #0d1b2a;
+  color: #f8f9fa;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+.footer-links {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.linklike {
+  background: none;
+  border: none;
+  color: #60a5fa;
+  cursor: pointer;
+  text-decoration: underline;
+  font: inherit;
+  transition: opacity 0.2s ease;
+}
+
+.linklike:hover {
+  opacity: 0.8;
+}
